@@ -6,14 +6,14 @@ function runCallbacks(callbacks) {
     callbacks.forEach(callback => console.log(callback));
 }
 function firstCallback() {
-  console.log("funzione 1")
-}
-function secondCallback() {
-  console.log("funzione 2")
-}
-
-function thirdCallback() {
-  console.log("funzione 3")
-}
+    //...
+  }
+  function secondCallback() {
+    //...
+  }
+  
+  function thirdCallback() {
+    //...
+  }
 const callbackArray = [firstCallback, secondCallback, thirdCallback];
 runCallbacks(callbackArray);
